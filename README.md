@@ -18,3 +18,7 @@ Generates blender scenes of various hydrogen orbitals in the DeBroglie-Bohm pict
 - ``end_time`` is the total physical time that passes in ``num_frames`` frames
 - ``framestep`` is the intervall at which keyframes will be taken
 - ``r``, ``theta``, ``phi`` is the discretization of space. Here you can mainly change number of points along each axis, but consider that increasing the number of points increases the memory requirement of the program drastically
+
+## Example
+A slice right through the n=5, l=4, m=1 orbital:
+![alt text](https://github.com/Hasinator7/hydrogen-debroglie-bohm-blender/blob/main/example.jpg)
